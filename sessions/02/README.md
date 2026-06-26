@@ -18,6 +18,12 @@ project/
 mkdir -p project/assets/css project/assets/py project/pages
 ```
 
+یا راه حل هوشمندانه تر:
+
+```bash
+mkdir -p project/assets/{css,py} project/pages
+```
+
 ### تمرین 2
 یک فایل متنی به نام `info.txt` بسازید. برای آن یک hard link به نام `info_h.txt` و یک symbolic link به نام `info_s.txt` ایجاد کنید. سپس فایل `info.txt` را حذف کنید. چه اتفاقی برای دو لینک دیگر می‌افتد؟
 
